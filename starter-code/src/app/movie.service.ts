@@ -27,7 +27,7 @@ export class MovieService {
   getMovie(id){
     for(let i = 0; i < this.movies.length; i++){
       if(this.movies[i].id == id){
-        return this.movies;
+        return this.movies[i];
       }
     }
   }
